@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    font-family: Helvetica;
+}
+
+body{
+    background-color: black;
+}
+
+.headerlinks{
+    color: seashell;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.headerlinks li{
+    display: inline-block;
+    text-decoration: underline;
+    padding: .5rem; 
+}
+
+.toplogo img{
+    top: 0px;
+    left: 10px;
+    position: absolute;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+.container {
+  background-image: url("./img-mission-background.webp");
+  height: 700px;
+  min-width: 1200px;
+  max-width: 1800px;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.textblock{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.8;
+  color: seashell;
+}
+
+.nextsection h2{
+  padding-top: 100px;
+  text-align: center;
+  color: seashell;
+}
+
+.nextsection h4{
+    text-align: center;
+    color: seashell;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+}
+
+.teas h4{
+    margin: 10px;
+}
+
+.locations h2{
+    position: relative;
+    top: 100px;
+    color: seashell;
+}
+.locations h3,h4,h5{
+    color: seashell;
+    padding: 1em;
+}
+
+.locations{
+  background-image: url("../Pictures/img-locations-background.webp");
+  position: static;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.location-list {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+
+.bottom {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  bottom: 100px;
+  padding: 1em;
+}
+
+
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+
